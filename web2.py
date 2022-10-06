@@ -8,9 +8,9 @@ funcao que soma dois elementos
 
 '''
 
-def soma(a,b):
+def soma(termo1,termo2):
 
-    return a+b
+    return termo1+termo2
 
 
 '''
@@ -21,6 +21,6 @@ funcao raiz da minha aplicacao web
 
 @app.route("/")
 def hello():
-    
+
     return "<h1>Teste de segurança</h1>"
 
