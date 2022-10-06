@@ -6,4 +6,3 @@ app = Flask(__name__)
 def hello():
     return "<h1>Teste de segurança</h1>"
 
-app.run()
